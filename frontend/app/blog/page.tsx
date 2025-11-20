@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { bloglar } from "@/data/blogData"; 
+import { bloglar } from "@/data/blogData"; // Oluşturduğumuz veriyi çektik
 
 export default function BlogListesi() {
   return (
