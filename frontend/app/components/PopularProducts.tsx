@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Star, Plus } from "lucide-react";
+import { Star } from "lucide-react";
 
 const urunler = [
     { id: 1, isim: "Ocean Vitamin D3", kategori: "Vitamin", puan: 4.8, resim: "https://placehold.co/200x200/png?text=D3" },
     { id: 2, isim: "Magnimore Plus", kategori: "Magnezyum", puan: 4.9, resim: "https://placehold.co/200x200/png?text=Mg" },
-    { id: 3, isim: "Solgar B12", kategori: "Vitamin", puan: 4.7, resim: "https://placehold.co/200x200/png?text=B12" },
+    { id: 3, isim: "Ester-C™ Plus 1000 mg", kategori: "Vitamin", puan: 4.7, resim: "https://placehold.co/200x200/png?text=B12" },
     { id: 4, isim: "Propolis Damla", kategori: "Bağışıklık", puan: 4.6, resim: "https://placehold.co/200x200/png?text=Propolis" },
 ];
 
@@ -44,13 +44,6 @@ export default function PopularProducts() {
                                 <Star className="w-4 h-4 fill-current" />
                                 <span className="ml-1 text-gray-600 font-medium">{urun.puan}</span>
                             </div>
-
-                            <div className="flex items-center justify-between mt-4">
-                                <button className="bg-blue-100 text-blue-600 p-2 rounded-lg hover:bg-blue-600 hover:text-white transition">
-                                    <Plus className="w-5 h-5" />
-                                </button>
-                            </div>
-
                         </div>
                     ))}
                 </div>

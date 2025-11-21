@@ -3,16 +3,14 @@ import Link from "next/link";
 import { bloglar } from "@/data/blogData";
 import { notFound } from "next/navigation";
 
-// TİP TANIMLAMASI: params artık bir Promise
+
 export default async function BlogDetay({ params }: { params: Promise<{ slug: string }> }) {
   
-  // 1. ADIM: Önce parametrelerin çözülmesini bekliyoruz (Next.js 15 Kuralı)
   const { slug } = await params;
 
-  // 2. ADIM: Şimdi 'slug' değerini kullanabiliriz
   const yazi = bloglar.find((b) => b.slug === slug);
 
-  // 3. Yazı yoksa 404 ver
+  
   if (!yazi) {
     notFound();
   }
