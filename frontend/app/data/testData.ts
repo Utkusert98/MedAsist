@@ -2,9 +2,9 @@ export const testler = [
   {
     id: 1,
     url: "cilt-analizi",
-    baslik: "Yapay Zeka Destekli Cilt Analizi",
+    baslik: "Cilt Analizi",
     aciklama: "Cilt tipinizi öğrenin ve size özel dermokozmetik ürünleri keşfedin.",
-    resim: "https://images.unsplash.com/photo-1556228720-196743936247?w=800&q=80", 
+    resim: "/testler/Cilt-Analizi.jpg", 
     
     // SORULAR
     sorular: [
@@ -75,7 +75,7 @@ export const testler = [
     url: "genel-saglik", // Link: /testler/genel-saglik
     baslik: "Genel Sağlık Taraması",
     aciklama: "Vücudunuzun verdiği sinyalleri kontrol edin. Risk altında mısınız?",
-    resim: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=80",
+    resim: "/testler/periyodik-saglik-taramasi-nedir.jpg",
     sorular: [
       {
         soru: "Günde kaç litre su içiyorsunuz?",
