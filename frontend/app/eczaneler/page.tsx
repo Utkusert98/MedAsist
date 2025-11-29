@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { MapPin, Phone, Navigation, Search, Loader2 } from "lucide-react";
-// 1. Yerel veriyi çekiyoruz (Bu dosyanın src/data/il-ilce.ts olduğundan emin ol)
 import { illerData } from "@/data/il-ilce";
 
 export default function EczanelerPage() {
