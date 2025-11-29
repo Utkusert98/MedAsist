@@ -47,7 +47,6 @@ export default function TestDetay({ params }: { params: Promise<{ id: string }> 
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="container mx-auto px-4 max-w-2xl">
 
-        {/* TEST DEVAM EDİYOR MU? */}
         {!testBitti ? (
           <div className="bg-white rounded-2xl shadow-lg p-6 md:p-10 animate-fade-in">
             
